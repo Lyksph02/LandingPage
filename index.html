@@ -9,6 +9,9 @@
     <meta name="author" content="Lyks">
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Borel&family=Montserrat&family=Poppins:wght@300&display=swap" rel="stylesheet">
     <!--Materializecss-->
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
@@ -19,19 +22,19 @@
     <!--Page Name-->
     <title>Virtual Japan EXPO 2024</title>
     <!--Favicon-->
-    <link rel="icon" type="image/x-icon" href="#">
+    <link rel="icon" type="image/x-icon" href="assets/logo.png">
 </head>
 <body>
         <nav>
             <div class="nav-wrapper">
-                <a href="#" class="brand-logo left" id="logo">Logo</a>
+                <a href="assets/logo.png" class="brand-logo left" id="logo"><img src="assets/logo.png" alt="logo"></a>
                 <a href="#" data-target="mobile-demo" class="right sidenav-trigger"><i class="material-icons">menu</i></a>
-                    <ul id="nav-mobile" class="right hide-on-med-and-down">
-                        <li><a href="overview.html">Overview</a></li>
-                        <li><a href="agenda.html">Agenda</a></li>
-                        <li><a href="speakers.html">Speakers</a></li>
-                        <li><a href="sponsors.html">Sponsors</a></li>
-                        <li><a href="sessions.html">Access Sessions</a></li>
+                    <ul id="nav-mobile" class="right hide-on-med-and-down black-text">
+                        <li><a id="list" href="overview.html">Overview</a></li>
+                        <li><a id="list" href="agenda.html">Agenda</a></li>
+                        <li><a id="list" href="speakers.html">Speakers</a></li>
+                        <li><a id="list" href="sponsors.html">Sponsors</a></li>
+                        <li><a id="list" href="sessions.html">Access Sessions</a></li>
                     </ul>
             </div>
         </nav>
@@ -44,16 +47,30 @@
             <li><a href="sessions.html">Access Sessions</a></li>
         </ul>
     <div class="container">
-        <div class="container">
-            <h1>Virtual Japan Expo 2024</h1>
-                <h4>Japan-feels inspired event for all time</h4>
+        <div class="container center">
+            <h1>
+                <div class="container">
+                    <b>
+                    <div class="col s12" id="title1">Virtual</div>
+                        <div class="row">
+                            <div class="col s8">Japan</div>
+                            <div class="col s4">20</div>
+                            <div class="col s8">Expo</div>
+                            <div class="col s4">24</div>
+                        </div>
+                    </b>
+                </div>
+            </h1>
+                <h6><b>Japan-feels inspired event for all time.</b></h6>
         </div>
-        <div class="container">
-            <h3>Recorded sessions now available!</h3>
-            <a class="waves-effect waves-light btn-large"><i class="material-icons right">archive</i>button</a>
+        <br><br>
+        <div class="center">
+            <h5><b>Recorded sessions now available!</b></h5>
+            <a class="waves-effect waves-light btn-large"><i class="material-icons right">archive</i>Access</a>
         </div>
-        <div class="container">
-            <p>Having trouble? Email us through clicking at <a href="blabla@gmail.com">Expo Email</a></p>
+
+        <div class="container center" id="bottom">
+            <p><b><i>Having trouble? Email us through clicking at <a id="email" href="blabla@gmail.com">Expo Email</a>.</i></b></p>
         </div>
     </div>
 </body>

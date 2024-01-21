@@ -1,10 +1,61 @@
 *{
     margin: 0px;
     padding: 0px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Borel', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
 }
-#logo{
-    position: absolute;
-    left: 20px;
+body {
+    background-image: url("assets/bg.png");
+}
+nav {
+    background-color: transparent;
+    padding: 0px 15px;
+}
+#list{
+    color: black;
+}
+.nav-wrapper {
+    position: relative;
+}
+.nav-wrapper #logo img {
+    height: 80px;
+    position: relative;
+    width: 100%;
+}
+#title1 {
+    letter-spacing: 30px;
+}
+#title1::after {
+    margin-left: -30px;
+}
+h6 {
+    letter-spacing: 8px;
+}
+.s8 {
+    color: brown;
+}
+.s4 {
+    text-align: left;
+}
+@media screen and (max-width: 480px) {
+    #title1 {
+        letter-spacing: 10px;
+    }
+    .s8 {
+        position: relative;
+        
+    }
+    .s4 {
+        position: relative;
+        text-size-adjust: auto;
+    }
+}
+#email {
+    color: rgb(31, 31, 214);
+}
+#bottom {
+    margin-top: 80px;
+    margin-bottom: auto;
 }
